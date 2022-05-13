@@ -1,0 +1,40 @@
+form{
+	margin: 0 auto;
+	width: 70%;
+	padding: 1em;
+	border: 10px solid pink;
+	border-radius: 1em;
+	font-family: cursive;
+    font-size: 20px;
+}
+body {
+	background-image: url("i.jpg");
+    background-size:cover; 
+}
+ input{ 
+    font-family: cursive;
+    font-size: 16px;
+    color: #666;
+	border-radius:30px;
+	width:300px;
+	height:50px;
+	border: solid pink;
+}
+input:hover{
+	background-color:pink
+}
+fieldset{
+  border:pink 3px solid;
+  	border-radius:10px;
+}
+img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#s{
+	background-color:pink;
+}
+div label{
+    display: block;
+}

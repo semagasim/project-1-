@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title> Permanent Makeup Consultation Form  </title>
+		<meta charset="UTF-8"> 
+		<link rel="stylesheet" href="file.css">
+	</head>
+	<body>
+			<form>
+				<fieldset>
+					<legend>Permanent Makeup Consultation Form</legend>
+					<img src="i2.jpg" alt="image" width="100px" height="100px"><br>
+					<div><label> First name: </label><input type="text" name="first name"><label> Last name: </label><input type="text" name="last name"></div>
+					<div>
+						<p><label> Date of birth: </label><input type="date"></p>
+					</div>
+					<div>
+						<label> E-mail: </label><input type="email" placeholder="example@example.com" name="email">
+					</div>
+					<div>
+						<label> Street address: </label><input type="text" name="street address">
+						<label> City: </label><input type="text" name="city">
+						<label> State: </label><input type="text" name="state">
+					</div>
+					<div>
+						<label> Occupation: </label><input type="text" name="occupation">
+					</div>
+					<div>
+						<p> Choose an appointment date and time: </p>
+						<input type="datetime-local">
+					</div>
+					<div>
+						<label> What are the medications you're currently taking and what is their purpose? </label>
+					</div>
+					<div>
+						<label> Medication Name: </label><input type="text">
+						<label> purpose: </label><input type="text">
+					</div>		
+					<div>
+						<label> Please list down your allergies below 
+						(e.g. seafood allergy, penicillin-based antibiotic allergies): </label>
+						<label> allergies: </label><input type="text">
+					</div>
+					<div>
+						<label>Services:</label>
+						<input type="checkbox" name="service" value="microblading"> microblading<br>
+						<input type="checkbox" name="service" value="lip blushing"> lip blushing<br>
+						<input type="checkbox" name="service" value="eyeliner"> eyeliner<br>
+						<input type="checkbox" name="service" value="scar camouflage" > scar camouflage<br>
+						<input type="checkbox" name="service" value="blush" > blush<br>
+						<input type="checkbox" name="service" value="others" > others<br>
+					</div>
+					<div>
+						<label>How do you hear about us:</label>
+						<input type="checkbox" name="about" value="facebook"> Facebook<br>
+						<input type="checkbox" name="about" value="Twitter"> Twitter<br>
+						<input type="checkbox" name="about" value="Instegram"> Instegram<br>
+						<input type="checkbox" name="about" value="Newspaper" > Newspaper<br>
+						<input type="checkbox" name="service" value="others" > Others<br>
+					</div>
+					<div>
+						<label>Are you pregnant?</label>
+						<input type="radio" name="status" value="male" > yes<br>
+						<input type="radio" name="status" value="female"> no<br><br>	
+					</div>
+					<label> Signature: </label>
+					<textarea name="signature" cols="30" rows="5" placeholder="sign here"></textarea><br><br>							
+					<input type="submit">
+				</fieldset>
+			</form>
+	</body>
+</html>
